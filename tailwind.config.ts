@@ -44,7 +44,7 @@ export default {
         }
       },
       fontFamily: {
-        jost: ['Jost', 'sans-serif']
+        jost: ['var(--font-jost)', 'sans-serif']
       },
       fontSize: {
         h1: ['48px', { lineHeight: '48px', fontWeight: '500' }], // Jost Medium
