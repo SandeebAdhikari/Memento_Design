@@ -1,7 +1,7 @@
 {
   "about": {
     "desktop": {
-      "hero": "/assets/about/desktop/bg-pattern-hero-about-desktop.jpg",
+      "hero": "/assets/about/desktop/bg-pattern-hero-about-desktop.svg",
       "about": "/assets/about/desktop/image-about-hero.jpg",
       "realDeal": "/assets/about/desktop/image-real-deal.jpg",
       "talent": "/assets/about/desktop/image-world-class-talent.jpg"
