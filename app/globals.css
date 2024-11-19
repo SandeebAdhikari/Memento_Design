@@ -4,4 +4,16 @@
 
 body {
   @apply font-jost;
+  background-color: #F2F2F2;
+
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Hide scrollbar on Chrome, Safari, Edge */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Hide scrollbar on IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar on Firefox */
 }

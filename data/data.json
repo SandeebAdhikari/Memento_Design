@@ -1,0 +1,113 @@
+{
+  "about": {
+    "desktop": {
+      "hero": "/assets/about/desktop/bg-pattern-hero-about-desktop.jpg",
+      "about": "/assets/about/desktop/image-about-hero.jpg",
+      "realDeal": "/assets/about/desktop/image-real-deal.jpg",
+      "talent": "/assets/about/desktop/image-world-class-talent.jpg"
+    },
+    "mobile": {
+      "hero": "/assets/about/mobile/bg-pattern-hero-about-mobile.svg",
+      "about": "/assets/about/mobile/image-about-hero.jpg",
+      "realDeal": "/assets/about/mobile/image-real-deal.jpg",
+      "talent": "/assets/about/mobile/image-world-class-talent.jpg"
+    },
+    "tablet": {
+      "about": "/assets/about/tablet/image-about-hero.jpg",
+      "realDeal": "/assets/about/tablet/image-real-deal.jpg",
+      "talent": "/assets/about/tablet/image-world-class-talent.jpg"
+    }
+  },
+  "appDesign": {
+    "desktop": {
+      "intro": "/assets/app-design/desktop/bg-pattern-intro-app.svg",
+      "airfilter": "/assets/app-design/desktop/image-airfilter.jpg",
+      "eyecam": "/assets/app-design/desktop/image-eyecam.jpg",
+      "faceit": "/assets/app-design/desktop/image-faceit.jpg",
+      "loopstudios": "/assets/app-design/desktop/image-loopstudios.jpg",
+      "todo": "/assets/app-design/desktop/image-todo.jpg"
+    }
+  },
+  "contact": {
+    "desktop": {
+      "hero": "/assets/contact/desktop/bg-pattern-hero-desktop.svg",
+      "errorIcon": "/assets/contact/desktop/icon-error.svg"
+    },
+    "mobile": {
+      "hero": "/assets/contact/mobile/bg-pattern-hero-contact-mobile.svg"
+    }
+  },
+  "graphicDesign": {
+    "desktop": {
+      "intro": "/assets/graphic-design/desktop/bg-pattern-intro-graphic.svg",
+      "boxedWater": "/assets/graphic-design/desktop/image-boxed-water.jpg",
+      "change": "/assets/graphic-design/desktop/image-change.jpg",
+      "science": "/assets/graphic-design/desktop/image-science.jpg"
+    }
+  },
+  "locations": {
+    "desktop": {
+      "australia": "/assets/locations/desktop/image-map-australia.png",
+      "canada": "/assets/locations/desktop/image-map-canada.png",
+      "uk": "/assets/locations/desktop/image-map-united-kingdom.png"
+    },
+    "tablet": {
+      "australia": "/assets/locations/tablet/image-map-australia.png",
+      "canada": "/assets/locations/tablet/image-map-canada.png",
+      "uk": "/assets/locations/tablet/image-map-uk.png"
+    }
+  },
+  "home": {
+    "desktop": {
+      "hero": "/assets/home/desktop/bg-pattern-hero-home.svg",
+      "friendly": "/assets/home/desktop/illustration-friendly.svg",
+      "passionate": "/assets/home/desktop/illustration-passionate.svg",
+      "resourceful": "/assets/home/desktop/illustration-resourceful.svg",
+      "appDesign": "/assets/home/desktop/image-app-design.jpg",
+      "graphicDesign": "/assets/home/desktop/image-graphic-design.jpg",
+      "webDesignLarge": "/assets/home/desktop/image-web-design-large.jpg",
+      "webDesignSmall": "/assets/home/desktop/image-web-design-small.jpg"
+    },
+    "mobile": {
+      "appDesign": "/assets/home/mobile/image-app-design.jpg",
+      "graphicDesign": "/assets/home/mobile/image-graphic-design.jpg",
+      "webDesign": "/assets/home/mobile/image-web-design.jpg"
+    },
+    "tablet": {
+      "appDesign": "/assets/home/tablet/image-app-design.jpg",
+      "graphicDesign": "/assets/home/tablet/image-graphic-design.jpg",
+      "webDesign": "/assets/home/tablet/image-web-design.jpg"
+    }
+  },
+  "shared": {
+    "desktop": {
+      "callToAction": "/assets/shared/desktop/bg-pattern-call-to-action.svg",
+      "leaf": "/assets/shared/desktop/bg-pattern-leaf.svg",
+      "threeCircles": "/assets/shared/desktop/bg-pattern-three-circles.svg",
+      "twoCircles": "/assets/shared/desktop/bg-pattern-two-circles.svg",
+      "facebook": "/assets/shared/desktop/icon-facebook.svg",
+      "instagram": "/assets/shared/desktop/icon-instagram.svg",
+      "pinterest": "/assets/shared/desktop/icon-pinterest.svg",
+      "rightArrow": "/assets/shared/desktop/icon-right-arrow.svg",
+      "twitter": "/assets/shared/desktop/icon-twitter.svg",
+      "youtube": "/assets/shared/desktop/icon-youtube.svg",
+      "logo": "/assets/shared/desktop/logo-dark.png"
+    },
+    "mobile": {
+      "designPagesIntro": "/assets/shared/mobile/bg-pattern-design-pages-intro.svg",
+      "closeIcon": "/assets/shared/mobile/icon-close.svg",
+      "hamburgerIcon": "/assets/shared/mobile/icon-hamburger.svg"
+    }
+  },
+  "webDesign": {
+    "desktop": {
+      "intro": "/assets/web-design/desktop/bg-pattern-intro-web.svg",
+      "blogr": "/assets/web-design/desktop/image-blogr.jpg",
+      "builder": "/assets/web-design/desktop/image-builder.jpg",
+      "camp": "/assets/web-design/desktop/image-camp.jpg",
+      "express": "/assets/web-design/desktop/image-express.jpg",
+      "photon": "/assets/web-design/desktop/image-photon.jpg",
+      "transfer": "/assets/web-design/desktop/image-transfer.jpg"
+    }
+  }
+}
