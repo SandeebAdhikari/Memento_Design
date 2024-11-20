@@ -70,7 +70,6 @@ const ResponsiveImage: React.FC<Props> = ({ folder, imageKey }) => {
       return folderData.mobile[imageKey];
     }
 
-    // 5. No image found
     return undefined;
   };
 

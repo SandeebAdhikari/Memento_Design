@@ -1,18 +1,13 @@
+import NavBar from "@/components/NavBar";
 import ResponsiveImage from "@/components/ResponsiveImage";
+import React from "react";
 
-export default function Home() {
+const page = () => {
   return (
-    <div>
-      <h1>Dynamic Responsive Images</h1>
-
-      {/* Display the "realDeal" image from the "about" folder */}
-      <ResponsiveImage folder="about" imageKey="realDeal" />
-
-      {/* Display the "hero" image from the "webDesign" folder */}
-      <ResponsiveImage folder="webDesign" imageKey="intro" />
-
-      {/* Display the "about" image from the "about" folder */}
-      <ResponsiveImage folder="about" imageKey="about" />
+    <div className="flex flex-col mx-[164px] min-h-screen">
+      <NavBar />
     </div>
   );
-}
+};
+
+export default page;
