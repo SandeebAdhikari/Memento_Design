@@ -11,9 +11,15 @@ const NavBar = () => {
         <Image src={DESIGNO} alt="LOGO NAME" />
       </div>
       <div className="flex items-center text- gap-[42px] ">
-        <a href="">OUR COMPANY</a>
-        <a href="">LOCATIONS</a>
-        <a href="">CONTACT</a>
+        <a href="" className="hover:underline">
+          OUR COMPANY
+        </a>
+        <a href="" className="hover:underline">
+          LOCATIONS
+        </a>
+        <a href="" className="hover:underline">
+          CONTACT
+        </a>
       </div>
     </div>
   );

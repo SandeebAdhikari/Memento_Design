@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="absolute top-[100px] left-[160px] w-[1096px] h-[177px] flex flex-col text-white">
-        <div className="text-h4 ">
+        <div className="text-h4">
           <NavBar />
         </div>
 
