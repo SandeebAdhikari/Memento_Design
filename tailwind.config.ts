@@ -50,7 +50,7 @@ export default {
         h1: ["48px", { lineHeight: "48px", fontWeight: "500" }],
         h2: [
           "40px",
-          { lineHeight: "48px", fontWeight: "500", letterSpacing: "0.125em" },
+          { lineHeight: "48px", fontWeight: "500", letterSpacing: "0.05em" },
         ],
         h3: [
           "20px",
@@ -63,6 +63,10 @@ export default {
         h5: [
           "15px",
           { lineHeight: "15px", fontWeight: "500", letterSpacing: "0.067em" },
+        ],
+        h6: [
+          "15px",
+          { lineHeight: "15px", fontWeight: "500", letterSpacing: "0.333em" },
         ],
         body: ["16px", { lineHeight: "26px", fontWeight: "400" }],
       },
