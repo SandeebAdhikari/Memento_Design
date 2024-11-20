@@ -84,6 +84,7 @@
     "desktop": {
       "callToAction": "/assets/shared/desktop/bg-pattern-call-to-action.svg",
       "leaf": "/assets/shared/desktop/bg-pattern-leaf.svg",
+      "smallCircle": "/assets/shared/desktop/bg-pattern-small-circle.svg",
       "threeCircles": "/assets/shared/desktop/bg-pattern-three-circles.svg",
       "twoCircles": "/assets/shared/desktop/bg-pattern-two-circles.svg",
       "facebook": "/assets/shared/desktop/icon-facebook.svg",

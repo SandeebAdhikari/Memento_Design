@@ -54,7 +54,7 @@ export default {
         ],
         h3: [
           "20px",
-          { lineHeight: "26px", fontWeight: "500", letterSpacing: "0.3125em" },
+          { lineHeight: "26px", fontWeight: "500", letterSpacing: "0.25em" },
         ],
         h4: [
           "14px",
