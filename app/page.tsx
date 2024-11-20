@@ -10,7 +10,6 @@ const page = () => {
   return (
     <>
       <div className="flex flex-col mx-[164px] min-h-screen">
-        <NavBar />
         <div className="w-full h-[640px] mt-[67px] bg-peach rounded-[15px] relative overflow-hidden">
           <div className="absolute top-[145px] left-[95px] w-[540px] h-[350px]">
             <h1 className="text-h1 text-white">
@@ -79,9 +78,6 @@ const page = () => {
             />
           ))}
         </div>
-      </div>
-      <div className="mt-80">
-        <Footer />
       </div>
     </>
   );
