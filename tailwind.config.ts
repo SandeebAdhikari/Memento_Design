@@ -56,6 +56,14 @@ export default {
           "20px",
           { lineHeight: "26px", fontWeight: "500", letterSpacing: "0.3125em" },
         ],
+        h4: [
+          "14px",
+          { lineHeight: "14px", fontWeight: "400", letterSpacing: "0.143em" },
+        ],
+        h5: [
+          "15px",
+          { lineHeight: "15px", fontWeight: "500", letterSpacing: "0.067em" },
+        ],
         body: ["16px", { lineHeight: "26px", fontWeight: "400" }],
       },
     },
