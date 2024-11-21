@@ -43,7 +43,7 @@ const ContactUsCard = () => {
           <div className="flex justify-end mt-6">
             <button
               type="submit"
-              className="w-[152px] h-[56px] bg-white text-peach font-bold text-sm rounded-md hover:bg-light-peach hover:text-white transition-all"
+              className="w-[152px] h-[56px] bg-white text-black  text-h5 rounded-[15px] hover:bg-light-peach hover:text-white transition-all"
             >
               SUBMIT
             </button>
