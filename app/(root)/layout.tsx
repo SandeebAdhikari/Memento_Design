@@ -3,6 +3,7 @@ import HeaderCard from "@/components/HeaderCard";
 import BodyCard from "@/components/BodyCard";
 import { HEADER_CARDS, BODY_CARDS } from "@/constants/constant";
 import { usePathname } from "next/navigation";
+import NextPageCard from "@/components/NextPageCard";
 
 export default function RootLayout({
   children,
@@ -18,27 +19,41 @@ export default function RootLayout({
     title: string;
     description: string;
   }[];
+  let nextPageCards: { title: string; imageKey: string }[] = [];
 
   switch (pathname) {
     case "/web_page":
       headerData = HEADER_CARDS[0];
       bodyData = BODY_CARDS.WEB_DESIGN;
+      nextPageCards = [
+        { title: "APP DESIGN", imageKey: "appDesign" },
+        { title: "GRAPHIC DESIGN", imageKey: "graphicDesign" },
+      ];
       break;
     case "/app_design":
       headerData = HEADER_CARDS[1];
       bodyData = BODY_CARDS.APP_DESIGN;
+      nextPageCards = [
+        { title: "WEB DESIGN", imageKey: "webDesign" },
+        { title: "GRAPHIC DESIGN", imageKey: "graphicDesign" },
+      ];
       break;
     case "/graphic_design":
       headerData = HEADER_CARDS[2];
       bodyData = BODY_CARDS.GRAPHIC_DESIGN;
+      nextPageCards = [
+        { title: "WEB DESIGN", imageKey: "webDesign" },
+        { title: "APP DESIGN", imageKey: "appDesign" },
+      ];
       break;
     default:
       headerData = null;
       bodyData = [];
+      nextPageCards = [];
   }
 
   return (
-    <main className="mx-[164px] ">
+    <main className="mx-[164px]">
       {headerData && (
         <div className="mt-[64px]">
           <HeaderCard
@@ -59,6 +74,16 @@ export default function RootLayout({
           />
         ))}
       </div>
+      <div className="mt-40 grid grid-cols-2 gap-8">
+        {nextPageCards.map((card, index) => (
+          <NextPageCard
+            key={index}
+            title={card.title}
+            imageKey={card.imageKey}
+          />
+        ))}
+      </div>
+      {children}
     </main>
   );
 }

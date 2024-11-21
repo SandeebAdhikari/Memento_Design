@@ -1,5 +1,7 @@
+import React from "react";
+
 const page = () => {
-  return <></>;
+  return <div></div>;
 };
 
 export default page;
