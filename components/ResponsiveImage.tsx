@@ -50,7 +50,7 @@ const ResponsiveImage: React.FC<Props> = ({ folder, imageKey }) => {
   const folderData = data[folder];
 
   if (!folderData) {
-    return <p>No folder found for "{folder}".</p>;
+    return <p>No folder found for &quot;{folder}&quot;.</p>;
   }
 
   const getImageForScreenSize = (): string | undefined => {

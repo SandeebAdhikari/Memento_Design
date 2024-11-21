@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           <div className="absolute  w-[459px] h-[174px] top-[72px] left-[95px] gap-[309px]">
             <h1 className="text-h7 text-white">
-              Let's talk about your project
+              Let`&apos;`s talk about your project
             </h1>
             <h1 className="text-body text-white mt-5">
               Ready to take it to the next level? Contact us today and find out
