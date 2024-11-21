@@ -1,7 +1,5 @@
 import React from "react";
 import ResponsiveImage from "./ResponsiveImage";
-import LocationCard from "./LocationCard";
-import { locations } from "@/constants/constant";
 
 const ContactUsCard = () => {
   return (

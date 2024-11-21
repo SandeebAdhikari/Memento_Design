@@ -7,12 +7,17 @@ import ResponsiveImage from "@/components/ResponsiveImage";
 import Behavior from "@/components/Behavior";
 import { SECTIONS } from "@/constants/constant";
 
+interface HandleNavigation {
+  (path: string): void;
+}
+
 const page = () => {
   const router = useRouter();
 
-  const handleNavigation = (path) => {
+  const handleNavigation: HandleNavigation = (path) => {
     router.push(path);
   };
+
   return (
     <div className="flex flex-col -mt-36">
       <div className="mt-0 w-full h-[640px] bg-peach rounded-[15px] relative overflow-hidden">
