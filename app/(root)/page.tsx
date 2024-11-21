@@ -1,10 +1,18 @@
+"use client";
+
 import React from "react";
+import { useRouter } from "next/navigation";
 
 import ResponsiveImage from "@/components/ResponsiveImage";
 import Behavior from "@/components/Behavior";
 import { SECTIONS } from "@/constants/constant";
 
 const page = () => {
+  const router = useRouter();
+
+  const handleNavigation = (path) => {
+    router.push(path);
+  };
   return (
     <div className="flex flex-col -mt-36">
       <div className="mt-0 w-full h-[640px] bg-peach rounded-[15px] relative overflow-hidden">
@@ -29,7 +37,10 @@ const page = () => {
         </div>
       </div>
       <div className="mt-[160px] w-full h-[632px] flex gap-[30px] ">
-        <div className="relative w-1/2 h-full rounded-[15px] overflow-hidden flex items-center justify-center">
+        <div
+          className="relative w-1/2 h-full rounded-[15px] overflow-hidden flex items-center justify-center"
+          onClick={() => handleNavigation("/web_design")}
+        >
           <div className="absolute w-full h-full bg-black/70 flex flex-col items-center justify-center gap-6  hover:cursor-pointer hover:bg-peach/80">
             <h1 className="text-h2 text-white">WEB DESIGN</h1>
             <h1 className="flex text-h6 text-white gap-[21px]">
@@ -40,7 +51,10 @@ const page = () => {
           <ResponsiveImage folder="home" imageKey="webDesignLarge" />
         </div>
         <div className="w-1/2 flex flex-col items-center justify-center gap-6">
-          <div className="relative h-[308px] rounded-[15px] overflow-hidden">
+          <div
+            className="relative h-[308px] rounded-[15px] overflow-hidden "
+            onClick={() => handleNavigation("/app_design")}
+          >
             <div className="absolute w-full h-full bg-black/70 flex flex-col items-center justify-center gap-6 hover:cursor-pointer hover:bg-peach/80">
               <h1 className="text-h2 text-white">APP DESIGN</h1>
               <h1 className="flex text-h6 text-white gap-[21px]">
@@ -50,7 +64,10 @@ const page = () => {
             </div>
             <ResponsiveImage folder="home" imageKey="appDesign" />
           </div>
-          <div className="relative h-[308px] rounded-[15px] overflow-hidden">
+          <div
+            className="relative h-[308px] rounded-[15px] overflow-hidden "
+            onClick={() => handleNavigation("/graphic_design")}
+          >
             <div className="absolute w-full h-full bg-black/70 flex flex-col items-center justify-center gap-6 hover:cursor-pointer hover:bg-peach/80">
               <h1 className="text-h2 text-white">GRAPHIC DESIGN</h1>
               <h1 className="flex text-h6 text-white gap-[21px]">

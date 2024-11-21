@@ -22,28 +22,36 @@ export default function RootLayout({
   let nextPageCards: { title: string; imageKey: string }[] = [];
 
   switch (pathname) {
-    case "/web_page":
+    case "/web_design":
       headerData = HEADER_CARDS[0];
       bodyData = BODY_CARDS.WEB_DESIGN;
       nextPageCards = [
-        { title: "APP DESIGN", imageKey: "appDesign" },
-        { title: "GRAPHIC DESIGN", imageKey: "graphicDesign" },
+        { title: "APP DESIGN", imageKey: "appDesign", path: "/app_design" },
+        {
+          title: "GRAPHIC DESIGN",
+          imageKey: "graphicDesign",
+          path: "/graphic_design",
+        },
       ];
       break;
     case "/app_design":
       headerData = HEADER_CARDS[1];
       bodyData = BODY_CARDS.APP_DESIGN;
       nextPageCards = [
-        { title: "WEB DESIGN", imageKey: "webDesign" },
-        { title: "GRAPHIC DESIGN", imageKey: "graphicDesign" },
+        { title: "WEB DESIGN", imageKey: "webDesign", path: "/web_design" },
+        {
+          title: "GRAPHIC DESIGN",
+          imageKey: "graphicDesign",
+          path: "/graphic_design",
+        },
       ];
       break;
     case "/graphic_design":
       headerData = HEADER_CARDS[2];
       bodyData = BODY_CARDS.GRAPHIC_DESIGN;
       nextPageCards = [
-        { title: "WEB DESIGN", imageKey: "webDesign" },
-        { title: "APP DESIGN", imageKey: "appDesign" },
+        { title: "WEB DESIGN", imageKey: "webDesign", path: "/web_design" },
+        { title: "APP DESIGN", imageKey: "appDesign", path: "/app_design" },
       ];
       break;
     default:
@@ -80,6 +88,7 @@ export default function RootLayout({
             key={index}
             title={card.title}
             imageKey={card.imageKey}
+            path={card.path}
           />
         ))}
       </div>
