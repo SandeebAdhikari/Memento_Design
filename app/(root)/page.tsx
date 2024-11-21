@@ -4,7 +4,7 @@ import ResponsiveImage from "@/components/ResponsiveImage";
 import NavBar from "@/components/NavBar";
 import Behavior from "@/components/Behavior";
 import Footer from "@/components/Footer";
-import { SECTIONS } from "@/constants/section";
+import { SECTIONS } from "@/constants/constant";
 
 const page = () => {
   return (

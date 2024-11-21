@@ -42,6 +42,7 @@ export default {
           rgb: "rgb(241, 243, 245)",
           hsl: "hsl(210, 17%, 95%)",
         },
+        "lighter-peach": "#FDF3F0",
       },
       fontFamily: {
         jost: ["var(--font-jost)", "sans-serif"],
