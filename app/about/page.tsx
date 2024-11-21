@@ -1,5 +1,6 @@
 import AboutUsCard from "@/components/AboutUsCard";
 import LocationCard from "@/components/LocationCard";
+import TheRealDealCard from "@/components/TheRealDealCard";
 import WorldClassTalentCard from "@/components/WorldClassTalentCard";
 import { locations } from "@/constants/constant";
 
@@ -19,6 +20,7 @@ const page = () => {
           />
         ))}
       </div>
+      <TheRealDealCard />
     </>
   );
 };
