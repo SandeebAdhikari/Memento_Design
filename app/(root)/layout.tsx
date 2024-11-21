@@ -21,15 +21,15 @@ export default function RootLayout({
 
   switch (pathname) {
     case "/web_page":
-      headerData = HEADER_CARDS[0]; // Web Design header
+      headerData = HEADER_CARDS[0];
       bodyData = BODY_CARDS.WEB_DESIGN;
       break;
     case "/app_design":
-      headerData = HEADER_CARDS[1]; // App Design header
+      headerData = HEADER_CARDS[1];
       bodyData = BODY_CARDS.APP_DESIGN;
       break;
     case "/graphic_design":
-      headerData = HEADER_CARDS[2]; // Graphic Design header
+      headerData = HEADER_CARDS[2];
       bodyData = BODY_CARDS.GRAPHIC_DESIGN;
       break;
     default:
@@ -59,7 +59,6 @@ export default function RootLayout({
           />
         ))}
       </div>
-      {children}
     </main>
   );
 }

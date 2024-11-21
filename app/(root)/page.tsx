@@ -9,7 +9,7 @@ import { SECTIONS } from "@/constants/constant";
 const page = () => {
   return (
     <>
-      <div className="flex flex-col mx-[164px] min-h-screen">
+      <div className="flex flex-col  min-h-screen">
         <div className="w-full h-[640px] mt-[67px] bg-peach rounded-[15px] relative overflow-hidden">
           <div className="absolute top-[145px] left-[95px] w-[540px] h-[350px]">
             <h1 className="text-h1 text-white">
