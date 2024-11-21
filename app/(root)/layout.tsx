@@ -19,7 +19,7 @@ export default function RootLayout({
     title: string;
     description: string;
   }[];
-  let nextPageCards: { title: string; imageKey: string }[] = [];
+  let nextPageCards: { title: string; imageKey: string; path: string }[] = [];
 
   switch (pathname) {
     case "/web_design":

@@ -11,7 +11,7 @@ interface HandleNavigation {
   (path: string): void;
 }
 
-const page = () => {
+const Page = () => {
   const router = useRouter();
 
   const handleNavigation: HandleNavigation = (path) => {
@@ -101,4 +101,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
