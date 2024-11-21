@@ -93,7 +93,10 @@
       "rightArrow": "/assets/shared/desktop/icon-right-arrow.svg",
       "twitter": "/assets/shared/desktop/icon-twitter.svg",
       "youtube": "/assets/shared/desktop/icon-youtube.svg",
-      "logo": "/assets/shared/desktop/logo-dark.png"
+      "logo": "/assets/shared/desktop/logo-dark.png",
+      "canada": "/assets/shared/desktop/illustration-canada.svg",
+      "australia": "/assets/shared/desktop/illustration-australia.svg",
+      "uk": "/assets/shared/desktop/illustration-united-kingdom.svg"
     },
     "mobile": {
       "designPagesIntro": "/assets/shared/mobile/bg-pattern-design-pages-intro.svg",

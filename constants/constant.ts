@@ -153,3 +153,18 @@ export const BODY_CARDS = {
     },
   ],
 };
+
+export const locations = [
+  {
+    country: "CANADA",
+    countryImage: "canada",
+  },
+  {
+    country: "AUSTRALIA",
+    countryImage: "australia",
+  },
+  {
+    country: "UNITED KINGDOM",
+    countryImage: "uk",
+  },
+];
