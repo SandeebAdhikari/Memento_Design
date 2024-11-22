@@ -12,7 +12,11 @@ export default function RootLayout({
 }>) {
   const pathname = usePathname();
 
-  let headerData;
+  let headerData: {
+    title: string;
+    description1: string;
+    description2: string;
+  } | null;
   let bodyData: {
     folder: string;
     imageKey: string;
