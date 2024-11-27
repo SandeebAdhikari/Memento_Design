@@ -72,6 +72,7 @@ export default {
         h7: ["40px", { lineHeight: "40px", fontWeight: "500" }],
         h8: ["40px", { lineHeight: "48px", fontWeight: "500" }],
         body: ["16px", { lineHeight: "26px", fontWeight: "400" }],
+        body1: ["18px", { lineHeight: "26px", fontWeight: "400" }],
       },
     },
   },
